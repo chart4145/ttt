@@ -61,7 +61,7 @@ class Main():
 	def load_title(self):
 		title_state = ScreenState('title')
 		title_state.add_message('Tic-Tac-Toe', 64, 0, -50)
-		title_state.add_message('By Samuel Morris', 24, 0, 5)
+		title_state.add_message('By Peng chong', 24, 0, 5)
 		title_state.add_button('Singleplayer', 24, 0, 60, self.start_singleplayer, (0,180,240), (0,180,230), (0,0,0), (0,220,255))
 		title_state.add_button('Multiplayer', 24, 0, 100, self.start_multiplayer, (0,180,240), (0,180,230), (0,0,0), (0,220,255))
 		title_state.add_button('Info', 24, 0, 140, self.load_info, (0,180,240), (0,180,230), (0,0,0), (0,220,255))
